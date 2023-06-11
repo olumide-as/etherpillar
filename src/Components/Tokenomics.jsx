@@ -14,9 +14,9 @@ const Tokenomics = () => {
       <div className="lg:px-48 grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-2  ">
         <div className="flex flex-col justify-between p-5 border rounded-xl shadow-sm backdrop-blur-sm bg-white/90">
           <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-white">
               <svg
-                className="w-12 h-12 text-deep-purple-accent-400"
+                className="w-12 h-12 text-neutral-950"
                 stroke="currentColor"
                 viewBox="0 0 52 52"
               >
@@ -33,16 +33,15 @@ const Tokenomics = () => {
               Community
             </h3>
             <p className="mb-3 text-neutral-950">
-              A flower in my garden, a mystery in my panties. Heart attack never
-              stopped old Big Bear.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             </p>
           </div>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded-xl shadow-sm backdrop-blur-sm bg-white/90">
           <div>
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
+            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-white">
               <svg
-                className="w-12 h-12 text-deep-purple-accent-400"
+                className="w-12 h-12 text-neutral-950"
                 stroke="currentColor"
                 viewBox="0 0 52 52"
               >
@@ -59,8 +58,7 @@ const Tokenomics = () => {
               Others
             </h3>
             <p className="mb-3 text-neutral-950">
-              A flower in my garden, a mystery in my panties. Heart attack never
-              stopped old Big Bear.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             </p>
           </div>
         </div>

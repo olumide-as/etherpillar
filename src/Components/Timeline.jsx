@@ -24,9 +24,9 @@ const Timeline = () => {
           </div>
           <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
             <div className="sm:mr-5">
-              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-white sm:w-24 sm:h-24">
                 <svg
-                  className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
+                  className="w-12 h-12 text-neutral-950 sm:w-16 sm:h-16"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >
@@ -45,9 +45,7 @@ const Timeline = () => {
                 Waitlist
               </p>
               <p className="">
-                All recipes are written using certain conventions, which define
-                the characteristics of common ingredients. The rules vary from
-                place to place.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               </p>
             </div>
           </div>
@@ -64,9 +62,9 @@ const Timeline = () => {
           </div>
           <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
             <div className="sm:mr-5">
-              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-white sm:w-24 sm:h-24">
                 <svg
-                  className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
+                  className="w-12 h-12 text-neutral-950 sm:w-16 sm:h-16"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >
@@ -85,9 +83,7 @@ const Timeline = () => {
                 Fire Sale
               </p>
               <p className="">
-                A flower in my garden, a mystery in my panties. Heart attack
-                never stopped old Big Bear. I didn't even know we were calling
-                him Big Bear.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               </p>
             </div>
           </div>
@@ -104,7 +100,7 @@ const Timeline = () => {
           </div>
           <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
             <div className="sm:mr-5">
-              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-white sm:w-24 sm:h-24">
                 <svg
                   className="w-12 h-12 text-neutral-950 sm:w-16 sm:h-16"
                   stroke="currentColor"
@@ -125,9 +121,7 @@ const Timeline = () => {
                 Aidrops
               </p>
               <p className="">
-                A flower in my garden, a mystery in my panties. Heart attack
-                never stopped old Big Bear. I didn't even know we were calling
-                him Big Bear.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               </p>
             </div>
           </div>
@@ -144,9 +138,9 @@ const Timeline = () => {
           </div>
           <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
             <div className="sm:mr-5">
-              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-white sm:w-24 sm:h-24">
                 <svg
-                  className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
+                  className="w-12 h-12 text-neutral-950 sm:w-16 sm:h-16"
                   stroke="currentColor"
                   viewBox="0 0 52 52"
                 >
@@ -165,9 +159,7 @@ const Timeline = () => {
                 Token Launch
               </p>
               <p className="">
-                The first mate and his Skipper too will do their very best to
-                make the others comfortable in their tropic island nest. Michael
-                Knight a young loner.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               </p>
             </div>
           </div>
