@@ -15,7 +15,7 @@ const Hero = () => {
             <h2 className="max-w-lg mb-6 text-6xl font-bold leading-none tracking-tight  sm:text-8xl md:mx-auto">
               The birth of ETHER PILLAR is at hand!
             </h2>
-            <p className="text-base text-gray-300 md:text-lg">
+            <p className="text-base font-bold md:text-lg">
               A strong support and foundation built for the Ether Community
             </p>
           </div>
