@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, Timeline, Tokenomics } from "../Components";
+import { AirdropBanner, Hero, Timeline, Tokenomics } from "../Components";
 import { MotionAnimate } from "react-motion-animate";
 
 const Home = () => {
@@ -7,6 +7,10 @@ const Home = () => {
     <div>
       <MotionAnimate animation="fadeInUp" reset={true}>
         <Hero />
+      </MotionAnimate>
+      
+      <MotionAnimate animation="fadeInUp" reset={true}>
+      <AirdropBanner/>
       </MotionAnimate>
 
       <MotionAnimate animation="fadeInUp" reset={true}>
