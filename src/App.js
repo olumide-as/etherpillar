@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Footer, Navbar } from "./Components";
 import { BackTop } from "antd";
-import { Home, NoPage } from "./Pages";
+import { Airdrop, Home, NoPage } from "./Pages";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Navbar />
       <Routes >
         <Route path='/' element={<Home/>} />
+        <Route path='/airdrop' element={<Airdrop/>} />
         <Route path="/*" element={<NoPage/>} />
       </Routes>
       <Footer/>
