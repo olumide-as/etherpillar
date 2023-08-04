@@ -21,7 +21,24 @@ const Airdrop = () => {
 
     const handleClaimAirdrop = () => {
         // Add your logic for handling the airdrop claim here
-        setStep(4);
+        // Open a new tab with the specified URL
+        const newTab = window.open('https://ctt.ac/i14Na', '_blank');
+
+        // Check if the new tab has been opened successfully
+        if (newTab) {
+            // Proceed to Step 4 after a brief delay (e.g., 1 second)
+            setTimeout(() => {
+                setStep(4);
+            }, 1000);
+        } else {
+            // If the new tab was blocked by the browser, proceed to Step 4 immediately
+            setStep(4);
+        }
+    };
+
+    const handleThankYou = () => {
+        // Handle any necessary actions after the "Thank you" step (Step 5) here
+        setStep(5);
     };
 
     return (
@@ -101,31 +118,36 @@ const Airdrop = () => {
                                 Completed the Task?
                             </h2>
                             <p className="text-lg">Paste your comment link below</p>
-                            <form>
+                            <form onSubmit={handleThankYou}>
                                 <div className="space-y-2 flex flex-col">
                                     <textarea
                                         required
                                         type="text"
                                         id="twitterId"
                                         name="twitterId"
-                                        placeholder='@example'
+                                        placeholder='https://twitter.com/example'
                                         className="input-gray-500 font-bold text-black border border-gray-300 px-4 py-2 rounded focus:ring focus:ring-blue-200 focus:border-blue-500"
                                         value={twitterId}
                                         onChange={(e) => setTwitterId(e.target.value)}
                                     />
-
-                                    
 
                                 </div>
                                 <button
                                     type="submit"
                                     className="bg-white inline-flex items-center justify-center h-12 my-3 px-6 font-bold tracking-wide text-black hover:scale-105 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                                     disabled={!isConnected}
-                                    onClick={handleSubmitTwitterId}
                                 >
                                     Claim Airdrop
                                 </button>
                             </form>
+                        </div>
+
+                        {/* Step 5 - Thank You */}
+                        <div className={step === 5 ? '' : 'hidden'}>
+                            <h2 className="mb-6 text-3xl font-bold leading-none tracking-tight md:text-6xl md:mx-auto">
+                                Thank You
+                            </h2>
+                            <p className="text-lg">You have successfully claimed the airdrop.</p>
                         </div>
 
                     </div>
