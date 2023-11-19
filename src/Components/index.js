@@ -4,3 +4,4 @@ export {default as Tokenomics} from './Tokenomics';
 export {default as Timeline} from './Timeline';
 export {default as Footer} from './Footer';
 export {default as AirdropBanner} from './AirdropBanner';
+export {default as How} from './How';

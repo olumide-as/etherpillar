@@ -12,12 +12,22 @@ const Navbar = () => {
             <ul class=" items-center hidden space-x-8 lg:flex">
               <li>
                 <a
-                  href="../#tokenomics"
+                  href="../#freemint"
                   aria-label="Our product"
-                  title="Our product"
+                  title="Free Mint"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
-                  Tokenomics
+                  Free Mint
+                </a>
+              </li>
+              <li>
+                <a
+                  href="../farming"
+                  aria-label="Our product"
+                  title="Farming"
+                  class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                >
+                  Farming
                 </a>
               </li>
             </ul>
@@ -30,6 +40,16 @@ const Navbar = () => {
               <img src={Logo} width={120} height={50} alt="Ether Pillar" />
             </a>
             <ul class="items-center hidden space-x-8 lg:flex">
+              <li>
+                <a
+                  href="../#tokenomics"
+                  aria-label="About us"
+                  title="About us"
+                  class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                >
+                  Tokenomics
+                </a>
+              </li>
               <li>
                 <a
                   href="../#timeline"
@@ -103,6 +123,21 @@ const Navbar = () => {
                       <ul class="space-y-4">
                         <li>
                           <a
+                            href="../#freemint"
+                            class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          >
+                            Free Mint                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="../farming"
+                            class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          >
+                            Farming
+                          </a>
+                        </li>
+                        <li>
+                          <a
                             href="../#tokenomics"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
@@ -121,7 +156,7 @@ const Navbar = () => {
                           href="/"
                           className="bg-neutral-950 inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide hover:scale-105 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
                         >
-                          Connect Wallet
+                          Connect to X
                         </button>
                       </ul>
                     </nav>
