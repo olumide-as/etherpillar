@@ -7,17 +7,12 @@ const AirdropBanner = () => {
         <div className="flex flex-col justify-between p-5 lg:pt-10 border rounded-xl shadow-sm backdrop-blur-sm bg-white/90">
           <div>
             <h3 className="mb-2 font-semibold  text-neutral-950 text-4xl">
-              Welcome to Trait Sniper - The Ultimate MEME for Influence Economy
+            999 Ether Pillars Genesis collection are to be minted for FREE
             </h3>
             <p className="mb-3  font-bold text-neutral-950">
-              Connect Wallet to Claim Your $ETH
+            The Ether Pillars are a unique and rare collection of unique Pillars scattered across the globe. Each Pillar is invented directly to the Ethereum blockchain and gives its holders access to the entire Ether Pillars features and products. The Pillars are certified and are digital evidence to every genuine products built in the ecosystem.
+
             </p>
-            <a
-              href="../airdrop"
-              className="bg-neutral-950 inline-flex items-center justify-center h-12 px-6 font-bold tracking-wide text-white hover:scale-105 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-            >
-              Claim Airdrop
-            </a>
           </div>
         </div>
       </div>

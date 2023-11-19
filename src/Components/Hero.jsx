@@ -21,12 +21,12 @@ const Hero = () => {
             </p>
           </div>
           <div>
-            <button
-              href="/"
+            <a
+              href="../farming"
               className="bg-white inline-flex items-center justify-center h-12 px-6 font-bold tracking-wide text-black hover:scale-105 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
             >
-              Connect Wallet
-            </button>
+              Start Farming
+            </a>
           </div>
         </div>
       </div>

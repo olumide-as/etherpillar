@@ -42,14 +42,15 @@ const Timeline = () => {
             </div>
             <div>
               <p className="text-2xl font-semibold sm:text-base md:text-2xl py-2">
-                Waitlist
+                Ether Ticket Farming for Etherlist
               </p>
               <p className="">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+               
               </p>
             </div>
           </div>
         </div>
+
         <div className="flex">
           <div className="flex flex-col items-center mr-6">
             <div className="w-px h-10 bg-gray-300 sm:h-full" />
@@ -80,14 +81,15 @@ const Timeline = () => {
             </div>
             <div>
               <p className="text-xl font-semibold sm:text-base md:text-2xl py-2">
-                Fire Sale
+                Etherlist winners raffle
               </p>
               <p className="">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                
               </p>
             </div>
           </div>
         </div>
+
         <div className="flex">
           <div className="flex flex-col items-center mr-6">
             <div className="w-px h-10 bg-gray-300 sm:h-full" />
@@ -118,20 +120,177 @@ const Timeline = () => {
             </div>
             <div>
               <p className="text-xl font-semibold sm:text-base md:text-2xl py-2">
-                Aidrops
+                Genesis Collection Mint
               </p>
               <p className="">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+               
               </p>
             </div>
           </div>
         </div>
+
         <div className="flex">
           <div className="flex flex-col items-center mr-6">
             <div className="w-px h-10 bg-gray-300 sm:h-full" />
             <div>
               <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full">
                 4
+              </div>
+            </div>
+            <div className="w-px h-full bg-gray-300" />
+          </div>
+          <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
+            <div className="sm:mr-5">
+              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-white sm:w-24 sm:h-24">
+                <svg
+                  className="w-12 h-12 text-neutral-950 sm:w-16 sm:h-16"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div>
+              <p className="text-xl font-semibold sm:text-base md:text-2xl py-2">
+              Token Launch
+              </p>
+              <p className="">
+               
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex">
+          <div className="flex flex-col items-center mr-6">
+            <div className="w-px h-10 bg-gray-300 sm:h-full" />
+            <div>
+              <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full">
+                5
+              </div>
+            </div>
+            <div className="w-px h-full bg-gray-300" />
+          </div>
+          <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
+            <div className="sm:mr-5">
+              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-white sm:w-24 sm:h-24">
+                <svg
+                  className="w-12 h-12 text-neutral-950 sm:w-16 sm:h-16"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div>
+              <p className="text-xl font-semibold sm:text-base md:text-2xl py-2">
+              Airdrop Distribution 
+              </p>
+              <p className="">
+                
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex">
+          <div className="flex flex-col items-center mr-6">
+            <div className="w-px h-10 bg-gray-300 sm:h-full" />
+            <div>
+              <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full">
+                6
+              </div>
+            </div>
+            <div className="w-px h-full bg-gray-300" />
+          </div>
+          <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
+            <div className="sm:mr-5">
+              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-white sm:w-24 sm:h-24">
+                <svg
+                  className="w-12 h-12 text-neutral-950 sm:w-16 sm:h-16"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div>
+              <p className="text-xl font-semibold sm:text-base md:text-2xl py-2">
+              Staking Dashboard Launch
+              </p>
+              <p className="">
+                
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex">
+          <div className="flex flex-col items-center mr-6">
+            <div className="w-px h-10 bg-gray-300 sm:h-full" />
+            <div>
+              <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full">
+                7
+              </div>
+            </div>
+            <div className="w-px h-full bg-gray-300" />
+          </div>
+          <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
+            <div className="sm:mr-5">
+              <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-white sm:w-24 sm:h-24">
+                <svg
+                  className="w-12 h-12 text-neutral-950 sm:w-16 sm:h-16"
+                  stroke="currentColor"
+                  viewBox="0 0 52 52"
+                >
+                  <polygon
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                    points="29 13 14 29 25 29 23 39 38 23 27 23"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div>
+              <p className="text-xl font-semibold sm:text-base md:text-2xl py-2">
+              EtherDAO
+              </p>
+              <p className="">
+                
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex">
+          <div className="flex flex-col items-center mr-6">
+            <div className="w-px h-10 bg-gray-300 sm:h-full" />
+            <div>
+              <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full">
+                8
               </div>
             </div>
             <div className="w-px h-full opacity-0" />
@@ -156,14 +315,15 @@ const Timeline = () => {
             </div>
             <div>
               <p className="text-xl font-semibold sm:text-base md:text-2xl py-2">
-                Token Launch
+              More to come ...
               </p>
               <p className="">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                
               </p>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Test } from "../Assets";
 
-const Airdrop = () => {
+const Farming = () => {
     const [isConnected, setIsConnected] = useState(false);
     const [step, setStep] = useState(1);
 
@@ -372,4 +372,4 @@ const Airdrop = () => {
     );
 };
 
-export default Airdrop;
+export default Farming;

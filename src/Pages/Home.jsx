@@ -1,5 +1,5 @@
 import React from "react";
-import { AirdropBanner, Hero, Timeline, Tokenomics } from "../Components";
+import { AirdropBanner, Hero, How, Timeline, Tokenomics } from "../Components";
 import { MotionAnimate } from "react-motion-animate";
 
 const Home = () => {
@@ -8,17 +8,21 @@ const Home = () => {
       <MotionAnimate animation="fadeInUp" reset={true}>
         <Hero />
       </MotionAnimate>
-      
+
       <MotionAnimate animation="fadeInUp" reset={true}>
-      <AirdropBanner/>
+        <AirdropBanner />
       </MotionAnimate>
 
       <MotionAnimate animation="fadeInUp" reset={true}>
-        <Timeline />
+        <How />
       </MotionAnimate>
 
       <MotionAnimate animation="fadeInUp" reset={true}>
         <Tokenomics />
+      </MotionAnimate>
+
+      <MotionAnimate animation="fadeInUp" reset={true}>
+        <Timeline />
       </MotionAnimate>
     </div>
   );
