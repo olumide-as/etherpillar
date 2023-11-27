@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Footer, Navbar } from "./Components";
 import { BackTop } from "antd";
-import { Farming, Home, NoPage } from "./Pages";
+import { Early, EarlyAirdrop, Farming, Home, Leaderboard, NoPage } from "./Pages";
 
 function App() {
   return (
@@ -10,6 +10,9 @@ function App() {
       <Navbar />
       <Routes >
         <Route path='/' element={<Home/>} />
+        <Route path='/early-access' element={<Early/>} />
+        <Route path='/early-access-airdrop' element={<EarlyAirdrop/>} />
+        <Route path='/leaderboard' element={<Leaderboard/>} />
         <Route path='/farming' element={<Farming/>} />
         <Route path="/*" element={<NoPage/>} />
       </Routes>
