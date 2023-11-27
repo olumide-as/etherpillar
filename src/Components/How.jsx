@@ -15,10 +15,10 @@ const How = () => {
             </p>
             
             <a
-              href="../farming"
+              href="../early-access"
               className="bg-white inline-flex items-center justify-center h-12 my-6 px-6 font-bold tracking-wide text-black hover:scale-105 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
             >
-              Start Farming
+              Get Early Access
             </a>
       </div>
     </div>

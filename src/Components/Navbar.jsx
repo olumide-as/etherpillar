@@ -12,22 +12,22 @@ const Navbar = () => {
             <ul class=" items-center hidden space-x-8 lg:flex">
               <li>
                 <a
-                  href="../#freemint"
-                  aria-label="Our product"
-                  title="Free Mint"
+                  href="../early-access"
+                  aria-label="Early Access"
+                  title="Early Access"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
-                  Free Mint
+                  Early Access
                 </a>
               </li>
               <li>
                 <a
-                  href="../farming"
-                  aria-label="Our product"
-                  title="Farming"
+                  href="../leaderboard"
+                  aria-label="Leaderboard"
+                  title="Leaderboard"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
                 >
-                  Farming
+                  Leaderboard
                 </a>
               </li>
             </ul>
@@ -123,17 +123,17 @@ const Navbar = () => {
                       <ul class="space-y-4">
                         <li>
                           <a
-                            href="../#freemint"
+                            href="../early-access"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
-                            Free Mint                          </a>
+                            Early Access                          </a>
                         </li>
                         <li>
                           <a
-                            href="../farming"
+                            href="../leaderboard"
                             class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                           >
-                            Farming
+                            Leaderboard
                           </a>
                         </li>
                         <li>
